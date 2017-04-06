@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#e43b3f</color>
+    <color name="colorPrimaryDark">#444444</color>
+    <color name="colorAccent">#e43b3f</color>
+    <color name="colorBackground">#FFFFFF</color>
+    <color name="colorTabBackground">#f6f6f6</color>
+
+    <color name="alpha_00">#00000000</color>
+    <color name="white_alpha_22">#22000000</color>
+
+    <color name="colorTheme">#e43b3f</color>
+    <color name="progress_color">#d555e6</color>
+    <color name="transulte">#00000000</color>
+
+    <color name="text_hint_level_0">#c8c8c8</color>
+<!--标题栏-->
+    <color name="text_nomal_white">#FFFFFF</color>
+    <color name="text_nomal_black">#2e2e2e</color>
+    <color name="background_gray">#f6f6f6</color>
+    <color name="background_red">#e43b3f</color>
+    <color name="background_litle_red">#facecf</color>
+
+
+    <color name="text_level_0">#9a9a9a</color>
+    <color name="text_level_1">#575757</color>
+    <color name="text_level_2">#2e2e2e</color>
+    <color name="text_level_3">#8f8f8f</color>
+    <color name="text_level_4">#808080</color>
+    <color name="text_blue">#4982ff</color>
+
+    <color name="color_line_0">#dcdcdc</color>
+    <color name="color_line_1">#efefef</color>
+
+    <color name="default_text">#ff454545</color>
+
+<!--<<<<<<< .mine-->
+    <color name="news_tip_background">#ebf4ff</color>
+    <color name="news_tip_text">#0b7efe</color>
+<!--=======
+>>>>>>> .r3-->
+    <color name="psts_background_tab_pressed">#1AFFFFFF</color>
+    <color name="psts_background_tab_pressed_ripple">#AAFFFFFF</color>
+
+    <color name="subscribe_item_drag_stroke_night">#ff464646</color>
+    <color name="subscribe_item_drag_bg_night">#ff252525</color>
+    <color name="subscribe_item_selected_bg">#ffffffff</color>
+    <color name="subscribe_item_disabled_bg">#ffefefef</color>
+    <color name="subscribe_item_disabled_stroke">#ffd9d9d9</color>
+    <color name="subscribe_item_pressed_bg">#fff9f9f9</color>
+    <color name="subscribe_item_pressed_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_normal_bg">#FFFFFF</color>
+    <color name="subscribe_item_normal_stroke">#ffcdcdcd</color>
+    <color name="subscribe_item_focused_bg_night">#ff252525</color>
+    <color name="subscribe_item_focused_stroke_night">#ff464646</color>
+    <color name="subscribe_item_selected_bg_night">#ff252525</color>
+    <color name="subscribe_item_selected_stroke_night">#ffbc494d</color>
+    <color name="subscribe_item_disabled_bg_night">#ff2b2b2b</color>
+    <color name="subscribe_item_drag_bg">#fff5f5f5</color>
+    <color name="subscribe_item_drag_stroke">#ffd2d2d2</color>
+    <color name="subscribe_item_selected_stroke">#ffcc3131</color>
+    <color name="subscribe_item_text_color_pressed">#ffb9b9b9</color>
+    <item name="subscribe_item_text_color_normal" type="color">@color/default_text</item>
+
+
+    <color name="search_tint_background">#ffcbcbcb</color>
+</resources>

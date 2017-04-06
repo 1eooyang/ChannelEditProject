@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="160px"
+                android:layout_height="70px">
+<RelativeLayout
+
+    android:layout_width="160px"
+    android:layout_height="70px">
+
+    <TextView
+        android:id="@+id/text_item"
+        android:layout_width="150px"
+        android:layout_height="60px"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/subscribe_item_bg"
+        android:gravity="center"
+        android:textColor="@color/subscribe_item_text_color"
+        android:textSize="25px"/>
+
+    <ImageView
+        android:id="@+id/delete_item"
+        android:layout_width="36px"
+        android:layout_height="36px"
+        android:layout_alignParentRight="true"
+        android:background="@mipmap/delete_icon"
+        android:visibility="gone"
+        />
+</RelativeLayout>
+
+</RelativeLayout>

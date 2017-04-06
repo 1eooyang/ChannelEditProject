@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/text_nomal_white">
+
+    <View
+        android:id="@+id/statusBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorTheme"/>
+
+    <FrameLayout
+        android:id="@+id/base_title"
+        android:layout_width="match_parent"
+        android:layout_height="98px"
+        android:layout_below="@id/statusBar"
+        android:background="@color/colorTheme"
+        >
+
+        <ImageView
+            android:id="@+id/btn_base_title_back"
+            android:layout_width="50px"
+            android:layout_height="50px"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="15px"
+            android:src="@mipmap/btn_back"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="频道管理"
+            android:textColor="@color/text_nomal_white"
+            android:textSize="36px"
+            />
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/subscribe_main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/base_title"
+        android:orientation="vertical"
+        >
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="78px"
+            android:background="@color/background_gray"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/my_category_tip_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="26px"
+                android:text="我的频道"
+                android:textColor="@color/text_nomal_black"
+                android:textSize="36px"
+                />
+
+            <Button
+                android:id="@+id/btn_edit_channel"
+                android:layout_width="80px"
+                android:layout_height="38px"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="26px"
+                android:layout_marginTop="5px"
+                android:background="@drawable/selector_btn_edit"
+                android:text="编辑"
+                android:textColor="@color/background_red"
+                android:textSize="24px"/>
+        </RelativeLayout>
+
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_drag"
+            android:overScrollMode="never"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/text_nomal_white"
+            android:paddingBottom="82px"
+            android:clipToPadding="false"
+            android:paddingLeft="26px"
+            android:paddingRight="26px"
+            android:paddingTop="40px"/>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="77px"
+            android:background="@color/background_gray">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="26px"
+                android:text="点击添加更多栏目"
+                android:textColor="@color/text_nomal_black"
+                android:textSize="36px"
+                />
+
+        </FrameLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rcv_nomal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:clipToPadding="false"
+            android:overScrollMode="never"
+            android:layout_marginLeft="26px"
+            android:layout_marginRight="26px"
+            android:layout_marginTop="40px"
+            android:background="@color/text_nomal_white"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
